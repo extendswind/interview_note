@@ -18,19 +18,46 @@ import java.util.Map;
 
  */
 
-class Solution{
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i= 0; i < nums.length; i++)
-            map.put(nums[i], i);
-        for (int i= 0; i < nums.length; i++){
-            int otherNum = target - nums[i];
-            if(map.containsKey(otherNum) && map.get(otherNum) != i)
-                return new int[]{i, map.get(otherNum)};
+
+// * Definition for singly-linked list.
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
+
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+        if (l1 == null && l2 == null)
+            return new ListNode(0);
+
+        int sum = l1.val + l2.val;
+        int addToNext = sum / 10 ;
+        l1 = l1.next;
+        l2 = l2.next;
+        ListNode first = new ListNode(sum%10);
+        ListNode current = first;
+
+        while((l1!=null || l2!=null) || addToNext != 0){
+            sum = 0;
+            sum += addToNext;
+            if(l1 != null){
+                sum += l1.val;
+                l1 = l1.next;
+            }
+            if(l2 != null){
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            addToNext = sum/10;
+            current.next = new ListNode(sum%10);
+            current = current.next;
         }
-        return null;
+        return first;
     }
 }
+
 
 public class _1TwoSum{
     public static void main(String[] args) {
@@ -40,10 +67,12 @@ public class _1TwoSum{
 
 
 /*
- 从数组中找到两个和为target的数，解决方案：
- 1. brute force   O(n^2)
- 2. 使用Map根据一个元素查找另一个元素，空间换时间  O(n)*HashMap get函数的开销，hashmap的get开销是常数？
- 3. 当数组为sorted时，可以使用一个指针从前向后一个指针从后向前（排序时间n*log(n)，还要添加额外的数据存储位置信息）
 
- 上面使用方案2
+遍历两个List而已，不过涉及初始结果的保存
+
+有两个特殊情况显得不太优雅：
+
+- 第一次循环的访问需要保留first指针，因此只能放在外部或者在循环内标记
+- 最后可能会有进位，需要在wihle循环的条件中添加addToNext或者放在循环后
+
  */
