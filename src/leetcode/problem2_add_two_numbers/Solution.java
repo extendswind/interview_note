@@ -1,4 +1,4 @@
-package problem2_add_two_numbers;
+package leetcode.problem2_add_two_numbers;
 import java.lang.Math;
 
 

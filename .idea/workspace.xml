@@ -20,25 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57928f7-fd8c-43a8-9832-773e322b68af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/BinaryTreeWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_3FindRepeatNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_4FindNumIn2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_5ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_6PrintListFromTailToHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_7ReconstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_9QueueImplementByTwoStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/extendswind/leetcode15/_15ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode15/_15ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/extendswind/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/extendswind/problem2_add_two_numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2_add_two_numbers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/extendswind/problem2_add_two_numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/extendswind/problem2_add_two_numbers/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode15/_15ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode3/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution2$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode15/_15ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode15/_15ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/Solution2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +79,7 @@
       <recent name="$PROJECT_DIR$/src/com/extendswind/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._9QueueImplementByTwoStack">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="BinaryTreeWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.BinaryTreeWalk" />
       <module name="java_leetcode" />
@@ -89,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingInterviews._5ReplaceSpace" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.Sort" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._5ReplaceSpace" />
       <item itemvalue="Application._6PrintListFromTailToHead" />
       <item itemvalue="Application._7ReconstructBinaryTree" />
       <item itemvalue="Application.BinaryTreeWalk" />
       <item itemvalue="Application._9QueueImplementByTwoStack" />
+      <item itemvalue="Application.Sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application._9QueueImplementByTwoStack" />
         <item itemvalue="Application._7ReconstructBinaryTree" />
         <item itemvalue="Application.BinaryTreeWalk" />
         <item itemvalue="Application._6PrintListFromTailToHead" />
-        <item itemvalue="Application._5ReplaceSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +173,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="627" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596202486409" />
-    <state width="1896" height="357" key="GridCell.Tab.0.bottom" timestamp="1596355982085">
+    <state width="1896" height="134" key="GridCell.Tab.0.bottom" timestamp="1596461041786">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
-    <state width="1896" height="357" key="GridCell.Tab.0.center" timestamp="1596355982085">
+    <state width="1896" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
+    <state width="1896" height="134" key="GridCell.Tab.0.center" timestamp="1596461041786">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
-    <state width="1896" height="357" key="GridCell.Tab.0.left" timestamp="1596355982084">
+    <state width="1896" height="134" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
+    <state width="1896" height="134" key="GridCell.Tab.0.left" timestamp="1596461041785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982084" />
-    <state width="1896" height="357" key="GridCell.Tab.0.right" timestamp="1596355982085">
+    <state width="1896" height="134" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041785" />
+    <state width="1896" height="134" key="GridCell.Tab.0.right" timestamp="1596461041786">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
+    <state width="1896" height="134" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
     <state width="1896" height="357" key="GridCell.Tab.1.bottom" timestamp="1596355982086">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -207,25 +205,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1896" height="357" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
-    <state x="461" y="181" key="SettingsEditor" timestamp="1596272061260">
+    <state x="461" y="181" key="SettingsEditor" timestamp="1596458625735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596272061260" />
-    <state x="623" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1596375331732">
+    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596458625735" />
+    <state x="669" y="61" width="581" height="939" key="find.popup" timestamp="1596458701007">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596375331732" />
+    <state x="669" y="61" width="581" height="939" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596458701007" />
+    <state x="623" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1596460361835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596460361835" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java</url>
           <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java</url>
           <line>48</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
