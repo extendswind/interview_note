@@ -1,4 +1,4 @@
-package com.extendswind.problem2_add_two_numbers;
+package problem2_add_two_numbers;
 
 /**
  * 
@@ -16,17 +16,19 @@ package com.extendswind.problem2_add_two_numbers;
  * 
  */
 
-// * Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode(int x) {
-        val = x;
-    }
-}
 
 class Solution2 {
+    // * Definition for singly-linked list.
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode cur = new ListNode(0);
         ListNode first = cur;

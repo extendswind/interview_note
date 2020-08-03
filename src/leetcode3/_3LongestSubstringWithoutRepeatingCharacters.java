@@ -1,4 +1,4 @@
-package com.extendswind.leetcode3;
+package leetcode3;
 
 import java.util.*;
 

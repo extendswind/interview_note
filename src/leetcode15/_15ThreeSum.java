@@ -1,4 +1,4 @@
-package com.extendswind.leetcode15;
+package leetcode15;
 
 
 /**

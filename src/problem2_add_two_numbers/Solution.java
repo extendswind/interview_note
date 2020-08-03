@@ -1,17 +1,18 @@
-package com.extendswind.problem2_add_two_numbers;
+package problem2_add_two_numbers;
 import java.lang.Math;
 
 
-/**
- * Definition for singly-linked list.
- * */
-class ListNode {
-  int val;
-  ListNode next;
-  ListNode(int x) { val = x; }
-}
 
 public class Solution {
+
+  /**
+   * Definition for singly-linked list.
+   * */
+  static class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+  }
 
   public ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
 
