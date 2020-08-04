@@ -1,13 +1,13 @@
-package basic;
+package basic.sort;
 
-public class Sort {
+public class QuickSort extends SortBase {
 
     /**
      * 递归形式的快排
      *
      * @param nums
      */
-    public void quickSort(int[] nums) {
+    public void sort(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
     }
 
@@ -29,24 +29,12 @@ public class Sort {
         quickSort(nums, i+1, end);
     }
 
-    private void swap(int[] nums, int s1, int s2){
-        int tmp = nums[s1];
-        nums[s1] = nums[s2];
-        nums[s2] = tmp;
-    }
 
-    public void printNums(int[] nums){
-        for(int num : nums){
-            System.out.print(num + " ");
-        }
-        System.out.println();
-    }
 
     public static void main(String[] argvs){
         int[] nums = {2,3,9,4,3, 2, 1,4,5,6,11,22,13};
-        Sort s = new Sort();
-        s.quickSort(nums);
+        SortBase s = new QuickSort();
+        s.sort(nums);
         s.printNums(nums);
     }
-
 }

@@ -20,23 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57928f7-fd8c-43a8-9832-773e322b68af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/fly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/sort/SortBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode15/_15ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode3/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution2$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/problem2_add_two_numbers/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode15/_15ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode15/_15ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode3/_3LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem2_add_two_numbers/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problem2_add_two_numbers/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/Sort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +68,23 @@
       <recent name="$PROJECT_DIR$/src/com/extendswind/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sort">
-    <configuration name="BinaryTreeWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.BinaryTreeWalk" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.BinarySearch" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Sort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.sort.MergeSort" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6PrintListFromTailToHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingInterviews._6PrintListFromTailToHead" />
+    <configuration name="SortBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.sort.SortBase" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,19 +105,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._6PrintListFromTailToHead" />
       <item itemvalue="Application._7ReconstructBinaryTree" />
-      <item itemvalue="Application.BinaryTreeWalk" />
       <item itemvalue="Application._9QueueImplementByTwoStack" />
-      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.SortBase" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.SortBase" />
         <item itemvalue="Application._9QueueImplementByTwoStack" />
         <item itemvalue="Application._7ReconstructBinaryTree" />
-        <item itemvalue="Application.BinaryTreeWalk" />
-        <item itemvalue="Application._6PrintListFromTailToHead" />
       </list>
     </recent_temporary>
   </component>
@@ -165,46 +154,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="123" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1596202488944" />
-    <state width="423" height="547" key="DebuggerActiveHint" timestamp="1596354623162">
+    <state x="719" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596545461298">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="423" height="547" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1596354623162" />
+    <state x="719" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596545461298" />
+    <state width="423" height="547" key="DebuggerActiveHint" timestamp="1596546443161">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="423" height="547" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1596546443161" />
     <state x="627" y="288" key="FileChooserDialogImpl" timestamp="1596202486409">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="627" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596202486409" />
-    <state width="1896" height="134" key="GridCell.Tab.0.bottom" timestamp="1596461041786">
+    <state width="1896" height="134" key="GridCell.Tab.0.bottom" timestamp="1596548161785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
-    <state width="1896" height="134" key="GridCell.Tab.0.center" timestamp="1596461041786">
+    <state width="1896" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596548161785" />
+    <state width="1896" height="134" key="GridCell.Tab.0.center" timestamp="1596548161785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
-    <state width="1896" height="134" key="GridCell.Tab.0.left" timestamp="1596461041785">
+    <state width="1896" height="134" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596548161785" />
+    <state width="1896" height="134" key="GridCell.Tab.0.left" timestamp="1596548161784">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041785" />
-    <state width="1896" height="134" key="GridCell.Tab.0.right" timestamp="1596461041786">
+    <state width="1896" height="134" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596548161784" />
+    <state width="1896" height="134" key="GridCell.Tab.0.right" timestamp="1596548161785">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596461041786" />
-    <state width="1896" height="357" key="GridCell.Tab.1.bottom" timestamp="1596355982086">
+    <state width="1896" height="134" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596548161785" />
+    <state width="1896" height="357" key="GridCell.Tab.1.bottom" timestamp="1596547533623">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982086" />
-    <state width="1896" height="357" key="GridCell.Tab.1.center" timestamp="1596355982085">
+    <state width="1896" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596547533623" />
+    <state width="1896" height="357" key="GridCell.Tab.1.center" timestamp="1596547533623">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
-    <state width="1896" height="357" key="GridCell.Tab.1.left" timestamp="1596355982085">
+    <state width="1896" height="357" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596547533623" />
+    <state width="1896" height="357" key="GridCell.Tab.1.left" timestamp="1596547533623">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
-    <state width="1896" height="357" key="GridCell.Tab.1.right" timestamp="1596355982085">
+    <state width="1896" height="357" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596547533623" />
+    <state width="1896" height="357" key="GridCell.Tab.1.right" timestamp="1596547533623">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596355982085" />
+    <state width="1896" height="357" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596547533623" />
     <state x="461" y="181" key="SettingsEditor" timestamp="1596458625735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -250,6 +243,16 @@
           <url>file://$PROJECT_DIR$/src/codingInterviews/_7ReconstructBinaryTree.java</url>
           <line>58</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/sort/MergeSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/sort/MergeSort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
