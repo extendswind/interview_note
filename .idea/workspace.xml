@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57928f7-fd8c-43a8-9832-773e322b68af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/.#README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_14CutRope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codingInterviews/_15Count1InBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/basic/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/basic/sort/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/_14CutRope.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/codingInterviews/_14CutRope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codingInterviews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/codingInterviews/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +71,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
@@ -92,14 +91,7 @@
       <recent name="$PROJECT_DIR$/src/com/extendswind/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._14CutRope">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.BinarySearch" />
-      <module name="java_leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.sort.MergeSort" />
       <module name="java_leetcode" />
@@ -107,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.sort.SortBase" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.sort.QuickSort" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,27 +113,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_9QueueImplementByTwoStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingInterviews._9QueueImplementByTwoStack" />
+    <configuration name="_15Count1InBinary (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingInterviews._15Count1InBinary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_15Count1InBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingInterviews._15Count1InBinary" />
       <module name="java_leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._9QueueImplementByTwoStack" />
-      <item itemvalue="Application.SortBase" />
       <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application._14CutRope" />
+      <item itemvalue="Application._15Count1InBinary (1)" />
+      <item itemvalue="Application._15Count1InBinary" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application._15Count1InBinary" />
+        <item itemvalue="Application._15Count1InBinary (1)" />
         <item itemvalue="Application._14CutRope" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SortBase" />
-        <item itemvalue="Application._9QueueImplementByTwoStack" />
       </list>
     </recent_temporary>
   </component>
@@ -178,54 +176,58 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="844" y="408" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1596685229848" />
-    <state x="448" y="123" key="#Project_Structure" timestamp="1596202488944">
+    <state x="885" y="107" key="#Project_Structure" timestamp="1596703906135">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="448" y="123" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1596202488944" />
+    <state x="885" y="107" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1596703906135" />
+    <state x="629" y="158" key="#_15Count1InBinary_(1)" timestamp="1596703281453">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="629" y="158" key="#_15Count1InBinary_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1596703281453" />
     <state x="719" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596545461298">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="719" y="26" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596545461298" />
-    <state width="423" height="547" key="DebuggerActiveHint" timestamp="1596549178076">
+    <state width="423" height="547" key="DebuggerActiveHint" timestamp="1597321984766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="423" height="547" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1596549178076" />
+    <state width="423" height="547" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1597321984766" />
     <state x="627" y="288" key="FileChooserDialogImpl" timestamp="1596202486409">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="627" y="288" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596202486409" />
-    <state width="1896" height="134" key="GridCell.Tab.0.bottom" timestamp="1596699668256">
+    <state width="1896" height="356" key="GridCell.Tab.0.bottom" timestamp="1597324165803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596699668256" />
-    <state width="1896" height="134" key="GridCell.Tab.0.center" timestamp="1596699668255">
+    <state width="1896" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165803" />
+    <state width="1896" height="356" key="GridCell.Tab.0.center" timestamp="1597324165803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596699668255" />
-    <state width="1896" height="134" key="GridCell.Tab.0.left" timestamp="1596699668255">
+    <state width="1896" height="356" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165803" />
+    <state width="1896" height="356" key="GridCell.Tab.0.left" timestamp="1597324165802">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596699668255" />
-    <state width="1896" height="134" key="GridCell.Tab.0.right" timestamp="1596699668256">
+    <state width="1896" height="356" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165802" />
+    <state width="1896" height="356" key="GridCell.Tab.0.right" timestamp="1597324165803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="134" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596699668256" />
-    <state width="1896" height="357" key="GridCell.Tab.1.bottom" timestamp="1596589582529">
+    <state width="1896" height="356" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165803" />
+    <state width="1896" height="356" key="GridCell.Tab.1.bottom" timestamp="1597324165804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596589582529" />
-    <state width="1896" height="357" key="GridCell.Tab.1.center" timestamp="1596589582529">
+    <state width="1896" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165804" />
+    <state width="1896" height="356" key="GridCell.Tab.1.center" timestamp="1597324165803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596589582529" />
-    <state width="1896" height="357" key="GridCell.Tab.1.left" timestamp="1596589582528">
+    <state width="1896" height="356" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165803" />
+    <state width="1896" height="356" key="GridCell.Tab.1.left" timestamp="1597324165803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596589582528" />
-    <state width="1896" height="357" key="GridCell.Tab.1.right" timestamp="1596589582529">
+    <state width="1896" height="356" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165803" />
+    <state width="1896" height="356" key="GridCell.Tab.1.right" timestamp="1597324165804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1896" height="357" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596589582529" />
+    <state width="1896" height="356" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597324165804" />
     <state x="461" y="181" key="SettingsEditor" timestamp="1596700060581">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -242,6 +244,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="669" y="61" width="581" height="939" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1596458701007" />
+    <state x="599" y="141" width="714" height="781" key="new project wizard" timestamp="1596869990309">
+      <screen x="0" y="0" width="1920" height="1055" />
+    </state>
+    <state x="599" y="141" width="714" height="781" key="new project wizard/0.0.1920.1055@0.0.1920.1055" timestamp="1596869990309" />
     <state x="623" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1596460361835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -294,6 +300,19 @@
           <url>file://$PROJECT_DIR$/src/basic/sort/MergeSort.java</url>
           <line>60</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/sort/QuickSort.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/codingInterviews/_15Count1InBinary.java</url>
+          <line>18</line>
+          <properties class="codingInterviews._15Count1InBinary" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
