@@ -364,7 +364,33 @@ head节点可能被删除，因此需要改变head指针的位置，因此需要
 
 # 24反转链表
 
-没有很特别的思路，主要是注意测试，三个指针从头向尾移动。
+没有很特别的思路，主要是注意几种特殊情况的测试，三个指针从头向尾移动。
+
+这个面试出现的频率比较高，主要思路是让两个指针移动，在向后移动一个节点时，用第三个指针（临时指针）记录一下第二个指针next的位置，第二个指针的next指向第一个指针，第一二两个指针向后移动一步。
+
+```java
+public class Solution {
+    public ListNode ReverseList(ListNode head) {
+        ListNode l1 = head;
+        if(l1 == null){
+            return null;
+        }
+        ListNode l2 = l1.next;
+        l1.next = null;
+        if(l2 == null){
+            return head;
+        }
+        ListNode l3;
+        while(l2 != null){
+            l3 = l2.next;
+            l2.next = l1;
+            l1 = l2;
+            l2 = l3;
+        }
+        return l1;
+    }
+}
+```
 
 # 25合并两个递增的链表
 
