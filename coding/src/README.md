@@ -11,6 +11,8 @@ https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/xue-xi-shu-ju-jie-
 
 # 动态规划（Dynamic Programming, DP）
 
+似乎是笔试题拉开差距的必考。
+
 https://blog.csdn.net/liukcqu/article/details/81545845
 
 https://zhuanlan.zhihu.com/p/35707293?from=groupmessage  这个划分为一维DP和二维DP的方式可以参考。
